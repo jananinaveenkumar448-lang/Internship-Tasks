@@ -1,0 +1,8 @@
+Name: janani
+Total: 289.0
+Average: 96.33
+-------------------
+Name: janani
+Total: 294.0
+Average: 98.00
+-------------------
