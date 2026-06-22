@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+
+    <h1>Add Student Form</h1>
+
+    <form method="POST">
+
+        <label>Name:</label>
+        <input type="text" name="name">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age">
+        <br><br>
+
+        <label>Department:</label>
+        <input type="text" name="department">
+        <br><br>
+
+        <button type="submit">Add Student</button>
+
+    </form>
+
+    {% if message %}
+        <h3>{{ message }}</h3>
+    {% endif %}
+
+</body>
+</html>
